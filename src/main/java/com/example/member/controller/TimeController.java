@@ -11,7 +11,7 @@ public class TimeController {
     }
 
     @GetMapping("/member/add")
-    public String AddScheule() {
+    public String AddSchedule() {
         return "add";
     }
 }
